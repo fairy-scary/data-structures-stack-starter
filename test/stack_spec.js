@@ -119,7 +119,7 @@ describe('Stack', () => {
       });
 
       it('Should not throw an error when calling pop on an empty stack', () => {
-        expect(function() {stack.pop()}).to.not.throw();
+        expect(function () { stack.pop() }).to.not.throw();
       });
 
       it('Should return null if called on an empty stack', () => {
